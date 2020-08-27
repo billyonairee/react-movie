@@ -2,9 +2,9 @@ import React, {useContext} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import {userContext} from '~/Context/User';
+import {UserContext} from '~/Context/User';
 
-import Loading from '~/Screens/Loding';
+import Loading from '~/Screens/Loading';
 
 import Login from '~/Screens/Login';
 import MovieHome from '~/Screens/MovieHome';

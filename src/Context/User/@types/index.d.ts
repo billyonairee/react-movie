@@ -10,3 +10,7 @@ interface IUserContext {
   getUserInfo: () => void;
   logout: () => void;
 }
+
+type LoginNaviParamList = {
+  login: undefined;
+};
