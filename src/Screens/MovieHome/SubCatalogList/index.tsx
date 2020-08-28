@@ -62,7 +62,7 @@ const SubCatalogList = ({title, url, onPress}: Props) => {
           keyExtractor={(item, index) => {
             return `catalogList-${(item as IMovie).id}-${index}`;
           }}
-          renderItem={({item, index}) => {
+          renderItem={({item, index}) => (
             <CatalogImageContainer
               activeOpacity={1}
               onPress={() => {
@@ -72,8 +72,8 @@ const SubCatalogList = ({title, url, onPress}: Props) => {
                 source={{uri: (item as IMovie).large_cover_image}}
                 style={{width: 136, height: 201}}
               />
-            </CatalogImageContainer>;
-          }}
+            </CatalogImageContainer>
+          )}
         />
       </CatalogContainer>
     </Container>

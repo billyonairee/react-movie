@@ -21,7 +21,7 @@ const BigCatalogList = ({url, onPress}: Props) => {
     fetch(url)
       .then((response) => response.json())
       .then((json) => {
-        console.log(json);
+        console.log('bigCatalogList', json);
         setData(json.data.movies);
       })
       .catch((error) => {

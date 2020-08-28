@@ -43,7 +43,7 @@ const MovieHome = ({navigation}: Props) => {
 
   useEffect(() => {
     SplashScreen.hide();
-  });
+  }, []);
 
   return (
     <Container>

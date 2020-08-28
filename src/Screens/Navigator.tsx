@@ -36,7 +36,7 @@ const MovieNavigator = () => {
     <Stack.Navigator>
       <Stack.Screen
         name="MovieHome"
-        component={{MovieHome}}
+        component={MovieHome}
         options={{
           title: 'MOVIEAPP',
           headerTintColor: '#E70915',
@@ -51,7 +51,7 @@ const MovieNavigator = () => {
       />
       <Stack.Screen
         name="MovieDetail"
-        component={{MovieDetail}}
+        component={MovieDetail}
         options={{
           title: 'MOVIEAPP',
           headerTintColor: '#E70915',

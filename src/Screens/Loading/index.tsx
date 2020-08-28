@@ -12,7 +12,7 @@ const Container = Styled.View`
 const Loading = () => {
   return (
     <Container>
-      <ActivityIndicator color="#E70915" size="Large" />
+      <ActivityIndicator color="#E70915" size="large" />
     </Container>
   );
 };
